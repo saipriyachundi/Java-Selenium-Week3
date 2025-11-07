@@ -4,10 +4,14 @@ public class StringBasics {
         String lastName = "Priya";
 
         String fullName = firstName + " " + lastName;
-        System.out.println("Full Name: " + fullName);
 
-        System.out.println("Length: " + fullName.length());
+        System.out.println("Full Name: " + fullName);
+        System.out.println("Length of Full Name: " + fullName.length());
         System.out.println("First Character: " + fullName.charAt(0));
         System.out.println("Last Character: " + fullName.charAt(fullName.length() - 1));
+
+        // Demonstrate concatenation
+        String greeting = "Hello, " + fullName + "!";
+        System.out.println("Greeting Message: " + greeting);
     }
 }
