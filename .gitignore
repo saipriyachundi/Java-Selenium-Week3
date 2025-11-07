@@ -1,0 +1,26 @@
+# Ignore compiled class files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore build directories
+target/
+build/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore WebDriver logs and executables
+chromedriver.log
+geckodriver.log
+chromedriver.exe
